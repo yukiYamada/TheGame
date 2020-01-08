@@ -1,0 +1,2 @@
+class RandumNumber:
+    None
