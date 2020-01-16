@@ -32,4 +32,5 @@ jobs:
     - name: Code Metorix
       run: |
         pip install radon
-        radon cc ./*.py
+        radon cc -s -e "test/*" .
+        radon mi -s -e "test/*" .
