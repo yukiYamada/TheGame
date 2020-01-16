@@ -29,3 +29,7 @@ jobs:
         pip install -e ./src/BL/
         pip install pytest
         pytest
+    - name: Code Metorix
+      run: |
+        pip install radon
+        radon cc -s ".\*.py" --no-assert
