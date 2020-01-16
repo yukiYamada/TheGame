@@ -32,4 +32,4 @@ jobs:
     - name: Code Metorix
       run: |
         pip install radon
-        radon cc -s ".\*.py" --no-assert
+        radon cc -s "./*.py" --no-assert
