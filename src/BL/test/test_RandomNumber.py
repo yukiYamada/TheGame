@@ -30,3 +30,17 @@ def test_NumberClass_CreateTargetNumber():
     actual3 = Number.create(4)
     assert actual != actual3
 
+def test_NumbersClass():
+    '''
+    Test NumbersClass initialize
+    '''
+    numbers = Numbers.create()
+    count = 0
+    while(not numbers.EOF):
+        count += 1
+        numbers.pop()
+      
+    # Can getting 98 Values
+    actual = 98
+    assert actual == count
+    
