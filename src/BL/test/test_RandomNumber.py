@@ -1,8 +1,7 @@
-#third
+# third party modules
 import pytest
-#user
-from BL_main.RandomNumber import *
-
+# user modules
+from BL_main.RandomNumber import Number, Numbers, InvalidArgumentExceptionOfNumber
 def test_NumberClass_InvalidException_underNumber():
     '''
     Test argument. under number.
